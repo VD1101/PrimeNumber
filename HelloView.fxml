@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.javaassignment.finalfinal.HelloController"
+      spacing="10" alignment="CENTER" style="-fx-padding: 20;">
+    <Label text="Prime Number Checker" style="-fx-font-size: 16; -fx-font-weight: bold;" />
+    <TextField fx:id="inputField" promptText="Enter a number" />
+    <Button fx:id="submitButton" text="Check Prime" onAction="#onSubmitButtonClick" />
+    <Label fx:id="resultLabel" text="Result will appear here." style="-fx-font-size: 14;" />
+</VBox>
